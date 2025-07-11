@@ -86,8 +86,34 @@
     }
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {"name":"State","type":"string"},
+      {"name":"Account_Length","type":"bigint"},
+      {"name":"Area_Code","type":"bigint"},
+      {"name":"Phone","type":"string"},
+      {"name":"Intl_Plan","type":"string"},
+      {"name":"VMail_Plan","type":"string"},
+      {"name":"VMail_Message","type":"bigint"},
+      {"name":"Day_Mins","type":"double"},
+      {"name":"Day_Calls","type":"bigint"},
+      {"name":"Day_Charge","type":"double"},
+      {"name":"Eve_Mins","type":"double"},
+      {"name":"Eve_Calls","type":"bigint"},
+      {"name":"Eve_Charge","type":"double"},
+      {"name":"Night_Mins","type":"double"},
+      {"name":"Night_Calls","type":"bigint"},
+      {"name":"Night_Charge","type":"double"},
+      {"name":"Intl_Mins","type":"double"},
+      {"name":"Intl_Calls","type":"bigint"},
+      {"name":"Intl_Charge","type":"double"},
+      {"name":"CustServ_Calls","type":"bigint"},
+      {"name":"Churn","type":"string"},
+      {"name":"splitter","type":"double"},
+      {"name":"proba_False","type":"double"},
+      {"name":"proba_True","type":"double"},
+      {"name":"prediction","type":"string"}
+    ],
+    "userModified": false
   },
   "typeSystemVersion": "V2",
   "dkuProperties": [],
