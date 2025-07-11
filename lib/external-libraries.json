@@ -1,7 +1,15 @@
 {
-  "gitReferences": {},
+  "gitReferences": {
+    "R": {
+      "remote": "git@github.com:yassertba/academy-samples.git",
+      "checkout": "refs/heads/dev",
+      "remotePath": "/r-users/",
+      "isDirty": false
+    }
+  },
   "pythonPath": [
-    "python"
+    "python",
+    "R"
   ],
   "rsrcPath": [
     "R"
