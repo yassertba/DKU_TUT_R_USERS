@@ -4,11 +4,11 @@
       "remote": "git@github.com:yassertba/academy-samples.git",
       "checkout": "refs/heads/dev",
       "remotePath": "/r-users/",
-      "lastHash": "387b3c0400cf4000bbdaaf124f491fa0f511af05",
+      "lastHash": "c46f48be500c759d3e1d5643ee589819a13d0ccd",
       "conflictingFiles": [],
       "resolvedFiles": [],
       "faultyHash": "",
-      "isDirty": true
+      "isDirty": false
     }
   },
   "pythonPath": [
