@@ -32,8 +32,8 @@ gbm.fit <- train(
 )
 
 # Recipe outputs
-model_r <- dkuManagedFolderPath("model_r")
-setwd(model_r)
-system("rm -rf *")
-path <- paste(model_r, 'model.RData', sep="/")
-save(gbm.fit, file = path)
+# Recipe outputs (local or non-local folder)
+save(gbm.fit, file= "model.RData")
+connection <- file("model.RData", "rb")
+dkuManagedFolderUploadPath("model_r", "model.RData", connection)
+close(connection)
