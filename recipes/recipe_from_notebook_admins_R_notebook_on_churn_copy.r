@@ -17,4 +17,4 @@ df %>%
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # Recipe outputs
-dkuWriteDataset(churn_prepared_r,"churn_prepared_r")
+dkuWriteDataset(df_prepared_r,"churn_prepared_r")
