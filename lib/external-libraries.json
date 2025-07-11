@@ -4,6 +4,10 @@
       "remote": "git@github.com:yassertba/academy-samples.git",
       "checkout": "refs/heads/dev",
       "remotePath": "/r-users/",
+      "lastHash": "9894c4d3183146051b1eab2cc1b2d59aa3f89e50",
+      "conflictingFiles": [],
+      "resolvedFiles": [],
+      "faultyHash": "",
       "isDirty": false
     }
   },
