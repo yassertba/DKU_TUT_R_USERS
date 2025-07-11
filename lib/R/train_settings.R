@@ -13,5 +13,5 @@ gbm.grid <-  expand.grid(
     interaction.depth = c(1, 3, 5, 9),
     n.trees = (1:10)*50,
     shrinkage = 0.1,
-    n.minobsinnode = 7
+    n.minobsinnode = 5
 )
