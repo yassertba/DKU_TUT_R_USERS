@@ -1,1 +1,26 @@
-{}
+{
+  "target_var": "Churn",
+  "categoric_vars": [
+    "State",
+    "Area_Code",
+    "Intl_Plan",
+    "VMail_Plan"
+  ],
+  "numeric_vars": [
+    "Account_Length",
+    "VMail_Message",
+    "Day_Mins",
+    "Day_Calls",
+    "Day_Charge",
+    "Eve_Mins",
+    "Eve_Calls",
+    "Eve_Charge",
+    "Night_Mins",
+    "Night_Calls",
+    "Night_Charge",
+    "Intl_Mins",
+    "Intl_Calls",
+    "Intl_Charge",
+    "CustServ_Calls"
+  ]
+}
