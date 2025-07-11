@@ -151,7 +151,8 @@
     },
     "dkuProperties": []
   },
-  "name": "Dataiku for R Users",
+  "name": "Dataiku for R Users for Administrator",
+  "projectStatus": "Sandbox",
   "imgPattern": 3,
   "showInitials": false,
   "metrics": {
