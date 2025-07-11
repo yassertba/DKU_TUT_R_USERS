@@ -1,0 +1,185 @@
+{
+  "checklists": {
+    "checklists": []
+  },
+  "creationTag": {
+    "lastModifiedBy": {
+      "login": "sean"
+    },
+    "lastModifiedOn": 1626115822471,
+    "versionNumber": 0
+  },
+  "customFields": {},
+  "dashboardCreationId": "qIfLT6F",
+  "listed": false,
+  "name": "Eve_Mins vs Day_Mins by Churn on churn_prepared",
+  "owner": "sean",
+  "params": {
+    "datasetSmartName": "churn_prepared",
+    "def": {
+      "animationDimension": [],
+      "animationFrameDuration": 3000,
+      "animationRepeat": true,
+      "axis1LogScale": false,
+      "axis2LogScale": false,
+      "boxplotBreakdownDim": [],
+      "boxplotValue": [],
+      "bubblesOptions": {
+        "defaultRadius": 5.0,
+        "singleShape": "FILLED_CIRCLE"
+      },
+      "chartHeight": 200,
+      "colorMeasure": [],
+      "colorOptions": {
+        "ccScaleMode": "NORMAL",
+        "colorPalette": "Set2",
+        "customPalette": {
+          "colors": [],
+          "fixedValues": false,
+          "id": "__dku_custom__",
+          "name": "Custom Palette",
+          "values": []
+        },
+        "numQuantizeSteps": 5,
+        "paletteMiddleValue": 0.0,
+        "paletteType": "CONTINUOUS",
+        "quantizationMode": "NONE",
+        "singleColor": "#2678B1",
+        "transparency": 0.5
+      },
+      "computeMode": "NORMAL",
+      "disableSafetyLimits": false,
+      "facetDimension": [],
+      "fillOpacity": 0.6,
+      "filters": [],
+      "genericDimension0": [],
+      "genericDimension1": [],
+      "genericMeasures": [],
+      "geometry": [],
+      "groupDimension": [],
+      "hexbinNumber": 20,
+      "hexbinRadius": 20,
+      "hexbinRadiusMode": "NUM_HEXAGONS",
+      "includeZero": true,
+      "legendPlacement": "OUTER_RIGHT",
+      "mapGridOptions": {
+        "gridLatDeg": 0.6,
+        "gridLonDeg": 0.6
+      },
+      "mapOptions": {
+        "lockSquareGrid": false,
+        "tilesLayer": "cartodb-positron"
+      },
+      "multiTooltips": false,
+      "name": "Eve_Mins vs Day_Mins by Churn",
+      "pieOptions": {
+        "donutHoleSize": 54.0
+      },
+      "scatterOptions": {
+        "equalScales": false,
+        "identityLine": false
+      },
+      "showInChartLabels": true,
+      "showInChartValues": false,
+      "showLegend": true,
+      "showXAxis": false,
+      "showXAxisLabel": true,
+      "showYAxisLabel": true,
+      "singleXAxis": true,
+      "sizeMeasure": [],
+      "smoothing": true,
+      "strokeWidth": 1,
+      "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAGb0lEQVRoge2Yf2yVVxnHv11x44dTMSFuGl1iMpcZdWaLWcgy0z+M2ZawRJNrlPXHe99zzi0KE2pbBDLgHQNKbS9rCQ46aW97z3O6eEFHbRkFbu95zi1uixITZhiLKNmmbhFxmLkx4WKuf9y+5fYOZljaW0zu5597fj73+Z73Oec9zwtUqFChwgxyob3hkdn2YdrJB95cALjY0SBm25dpJxf3AwDIb/nep0r7ZHrwfW2X53kbZ9Ct8hM50vPx4nq+o24BACwdNwtLx8acCcrk1ocjdqznI1PqJQ7n4n6QB6om69ujj+U6o0OldsLouG7wbOKWD+oXvza3+ZZWSasJKAiPORNEx/Tdx3uaXwzHKaZvAUAq0XrLpQ5PzazX04ziwQ3Fdcl602TZmY25uB/k4n6w+cCuZL5t6UI/SyrX2eDe2x59AgByP6m9Pxf3gwvtdXeG8/KRSHX5FPwPotnUotK2MISjmeS9MjvYqhy94dnE3NpM710xZ4L6sYHPRFKp6t/2rrwDACSbdQDgO/0dANg42mPyjz5405VC+lJnfcNM6rlmlDMdvqU1ACBc/9elo+Uqa7YLp1s8m5ib3xpZJN3gZpGltcrRSNdQ16lcPPqydJTe+8wTv7jY4Slh9QrlDF/tsJq1Q8xL09eKqlXFjginV0bTfV+UTOdkdnDVsozeVHtU3yHYjAOAz3qdZHpZsRlXbF6VTBYoiJGOTsecef29bfWfAwDPmq+WU9cHEoqUlpqb0n2dD57acZPMFkJUMnVLR5sT+9rfVmzGBZtn20Z2viQdpSf6/9w11HU65kwgWI8LpqF7Jk74Xc9uZ5WlZQAgmFZP+c+svnVaRShnfnytczaOPr0LKOxHYU2LYuqtCYI5kuk1yfRzyfS8ZPNH4eiEdLRGWXpRMP1JOtovmc5LpnPSmeOtR3pfl86wZL1OWL0tXNA6m/wSAOSbIvMAQDojACAfLJk/bcJLqCptkC75bcH6VwCgmDYAgODkkq79XQfCEFVsTgKAcvTasHn8bcX0lnB6n7B6/PGDu9+QTL+Xjp4UTncoNpdWphPvAoC0mqSjXZLNU8DlV5pkvaWse9jngcU+Dy4u/tP69MAXwrJyhv2xpAcAYmzPbYL1wZhNNiumdySTjqRSN0pLe1uO9J1RTH9ptPqYYnNcsjmjHGUlk1XO7Jm0x9SubMEeAEhH+wu/5qEyyC1wtRWWTDsuxj1vovxKeNI+OtZ/RjAdakk//Q3F5lXlzHnF5g+th3tPKjb/bGR92s/oh6Uz/wAA5UxGOBqKPNe3SFqqBQDfJpeVS98Uakd7bpXOTF7shdUPFPdLS0cFm3hsuGe+tFofSrYsWDv6szcl098BoCmdeCc4uPukcnRuzaE9F6QzTmToPmX1uGA6K7J0n2RzRjLtjWaS906YrZKsW6WjNqCMryXpqLm0bXmmv1tYsyKWNesl029Ch2LHhud7jr5cnx74SsfwjpxkemlVOpF45Dn6mGLzr8N6/altIzvflUyvKKZMzJlAWOpXTBuEI7+wh/XxGhvMkZaWi6xp8o/23uzZxNyyiJ1CENzwvrZ8vgoo7GEAiLEeCutnn1RdkVSkuiHTf4+0NBqxqY8uzwz87a2umJOWXgiGdz4UHkrN6b720KRyNFIeQddAcXgVl6UzGxt5cPFEtapvb/vvvMOJ25UzJwTT2jA99NmsRz5fJZm6c53R1X372nrCZEI5w5EDlxOUpSNPLSzYTs7+h4NcR/2PLnV4SyTr7wNFT3piEX76y/huAIhm9d3/6fRjAHC2u/FN6cxfRTbZBADLWG/Kxf3gB2MJdd1dK0spfdJ+Rt8lHaXrjiTvjKRS84TVLdJRp7CUUFkTB6Z+1RBWPxCGNQAE+eCGSCpVXXcouSAc4x/tvbl8iq7AlVY7bJvsm9jvuU5v3eQ1lOkFADgf/+5nAcBn6hZWS2F1o2SzpSXdt7XYZvFb4bolMrrnk0EodiLNizkTiCytjjyfmqeytFYydeeDmjnF85TTDwOAf/iZT0/aSqWqAUBYs6J47JLhnhm7Vl4z+a2RKXlyfHjHaFiOjZsfKmceu9rciYxpTSg0JDwXrluK0zrJ+v5/ty39fPi0haMGzyY+cbW5xVExw25OH55L3D7bPswKkROpG2fbhxlHWl3zYefGShL+/zvyQc2U+68/1v/N2fKlQoUKFSpUmEX+C6cGgBRbKv/+AAAAAElFTkSuQmCC",
+      "tooltipMeasures": [],
+      "type": "scatter",
+      "uaColor": [
+        {
+          "adminLevel": 0,
+          "column": "Churn",
+          "isA": "ua",
+          "treatAsAlphanum": false,
+          "type": "ALPHANUM"
+        }
+      ],
+      "uaShape": [],
+      "uaSize": [],
+      "uaTooltip": [],
+      "uaXDimension": [
+        {
+          "column": "Eve_Mins",
+          "isA": "ua",
+          "sortAscending": false,
+          "sortBy": "NATURAL",
+          "treatAsAlphanum": false,
+          "type": "NUMERICAL"
+        }
+      ],
+      "uaYDimension": [
+        {
+          "column": "Day_Mins",
+          "isA": "ua",
+          "sortAscending": false,
+          "sortBy": "NATURAL",
+          "treatAsAlphanum": false,
+          "type": "NUMERICAL"
+        }
+      ],
+      "useLiveProcessingIfAvailable": true,
+      "userEditedName": true,
+      "valuesInChartDisplayOptions": {
+        "displayMode": "VALUES",
+        "displayValues": false
+      },
+      "variant": "normal",
+      "xAxisFormatting": {
+        "isLogScale": false,
+        "showAxisTitle": true
+      },
+      "xAxisMode": "NORMAL",
+      "xDimension": [],
+      "xMeasure": [],
+      "yAxesFormatting": [
+        {
+          "isLogScale": false,
+          "showAxisTitle": true
+        }
+      ],
+      "yAxisMode": "NORMAL",
+      "yDimension": [],
+      "yMeasure": []
+    },
+    "engineType": "LINO",
+    "maxDataBytes": 157286400,
+    "refreshableSelection": {
+      "_refreshTrigger": 0,
+      "autoRefreshSample": false,
+      "selection": {
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "latestPartitionsN": 1,
+        "maxReadUncompressedBytes": -1,
+        "maxRecords": 10000,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "partitionSelectionMethod": "ALL",
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "targetRatio": 0.02,
+        "useMemTable": false,
+        "withinFirstN": -1
+      }
+    }
+  },
+  "tags": [],
+  "type": "chart",
+  "versionTag": {
+    "lastModifiedBy": {
+      "login": "sean"
+    },
+    "lastModifiedOn": 1626115822471,
+    "versionNumber": 0
+  }
+}

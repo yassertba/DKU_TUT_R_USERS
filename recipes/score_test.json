@@ -1,0 +1,64 @@
+{
+  "type": "prediction_scoring",
+  "neverRecomputeExistingPartitions": false,
+  "optionalDependencies": false,
+  "params": {
+    "containerSelection": {
+      "containerMode": "INHERIT"
+    }
+  },
+  "customMeta": {
+    "kv": {}
+  },
+  "redispatchPartitioning": false,
+  "maxRunningActivities": 0,
+  "variables": {},
+  "dkuProperties": [],
+  "inputs": {
+    "model": {
+      "items": [
+        {
+          "ref": "GSTSRvVT",
+          "deps": []
+        }
+      ]
+    },
+    "main": {
+      "items": [
+        {
+          "ref": "test",
+          "deps": []
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "main": {
+      "items": [
+        {
+          "ref": "test_scored",
+          "appendMode": false
+        }
+      ]
+    }
+  },
+  "versionTag": {
+    "versionNumber": 1,
+    "lastModifiedBy": {
+      "login": "sean"
+    },
+    "lastModifiedOn": 1626115373728
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "sean"
+    },
+    "lastModifiedOn": 1626115370614
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

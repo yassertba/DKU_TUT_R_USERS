@@ -1,0 +1,73 @@
+{
+  "checklists": {
+    "checklists": []
+  },
+  "columnNumber": 36,
+  "creationTag": {
+    "lastModifiedBy": {
+      "login": "sean"
+    },
+    "lastModifiedOn": 1626113583042,
+    "versionNumber": 0
+  },
+  "customFields": {},
+  "listed": true,
+  "name": "DKU_TUT_R_USERS's default dashboard",
+  "owner": "sean",
+  "pages": [
+    {
+      "enableCrossFilters": true,
+      "filtersParams": {
+        "panelPosition": "TOP"
+      },
+      "grid": {
+        "tiles": [
+          {
+            "autoLoad": true,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 12,
+              "left": 0,
+              "top": 0,
+              "width": 18
+            },
+            "clickAction": "OPEN_INSIGHT",
+            "displayMode": "INSIGHT",
+            "insightId": "t9v5QFh",
+            "insightType": "chart",
+            "resizeImageMode": "FIT_SIZE",
+            "showTitle": "YES",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES"
+            }
+          }
+        ]
+      },
+      "id": "1lqLijQ",
+      "showTitle": false
+    }
+  ],
+  "showGrid": true,
+  "tags": [],
+  "versionTag": {
+    "lastModifiedBy": {
+      "login": "sean"
+    },
+    "lastModifiedOn": 1626115967065,
+    "versionNumber": 3
+  }
+}
